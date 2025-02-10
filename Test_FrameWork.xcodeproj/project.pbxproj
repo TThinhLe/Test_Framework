@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E155FA002D5A18210080C415 /* version.json in Resources */ = {isa = PBXBuildFile; fileRef = E155F9FF2D5A18210080C415 /* version.json */; };
 		E1BEDFC92D58C81D006C79E8 /* Test_FrameWork.docc in Sources */ = {isa = PBXBuildFile; fileRef = E1BEDFC82D58C81D006C79E8 /* Test_FrameWork.docc */; };
 		E1BEDFCA2D58C81D006C79E8 /* Test_FrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BEDFC72D58C81D006C79E8 /* Test_FrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1BEDFD12D58C838006C79E8 /* Tend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEDFD02D58C838006C79E8 /* Tend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E155F9FF2D5A18210080C415 /* version.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = version.json; sourceTree = "<group>"; };
 		E1BEDFC42D58C81D006C79E8 /* Test_FrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Test_FrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BEDFC72D58C81D006C79E8 /* Test_FrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_FrameWork.h; sourceTree = "<group>"; };
 		E1BEDFC82D58C81D006C79E8 /* Test_FrameWork.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Test_FrameWork.docc; sourceTree = "<group>"; };
+		E1BEDFD02D58C838006C79E8 /* Tend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +51,10 @@
 		E1BEDFC62D58C81D006C79E8 /* Test_FrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				E1BEDFD02D58C838006C79E8 /* Tend.swift */,
 				E1BEDFC72D58C81D006C79E8 /* Test_FrameWork.h */,
 				E1BEDFC82D58C81D006C79E8 /* Test_FrameWork.docc */,
+				E155F9FF2D5A18210080C415 /* version.json */,
 			);
 			path = Test_FrameWork;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E155FA002D5A18210080C415 /* version.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BEDFD12D58C838006C79E8 /* Tend.swift in Sources */,
 				E1BEDFC92D58C81D006C79E8 /* Test_FrameWork.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
