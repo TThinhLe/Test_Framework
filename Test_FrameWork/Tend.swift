@@ -2,13 +2,13 @@ import UIKit
 
 @objc public class Tend: NSObject {
     
-    @objc public let version = 20
+    @objc public let version = 21
     
     @objc public func createCustomSubview(withText text: String) -> UIView {
         // Tạo view con
         let subview = UIView()
         subview.translatesAutoresizingMaskIntoConstraints = false
-        subview.backgroundColor = .systemRed
+        subview.backgroundColor = .systemBlue
         subview.layer.cornerRadius = 12
         subview.layer.borderWidth = 2
         subview.layer.borderColor = UIColor.black.cgColor
