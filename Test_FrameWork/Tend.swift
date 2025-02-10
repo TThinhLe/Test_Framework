@@ -2,7 +2,7 @@ import UIKit
 
 @objc public class Tend: NSObject {
     
-    @objc public let version = 10
+    @objc public let version = 11
     
     @objc public func createCustomSubview(withText text: String) -> UIView {
         // Tạo view con
