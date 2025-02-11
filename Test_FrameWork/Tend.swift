@@ -2,9 +2,10 @@ import UIKit
 
 @objc public class Tend: NSObject {
     
-    @objc public let version = 34
+    @objc public let version = 35
     
     @objc public func createCustomSubview(withText text: String) -> UIView {
+        print(a())
         // Tạo view con
         let subview = UIView()
         subview.translatesAutoresizingMaskIntoConstraints = false
@@ -31,5 +32,8 @@ import UIKit
         ])
         
         return subview
+    }
+    @objc public func a()->String{
+        return "a"
     }
 }
