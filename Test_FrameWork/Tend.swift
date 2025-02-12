@@ -1,15 +1,14 @@
 import UIKit
 
-@objc public class Tend58: NSObject {
+@objc public class Tend59: NSObject {
     
-    @objc public let version = 58
+    @objc public let version = 59
     
     @objc public func createCustomSubview(withText text: String) -> UIView {
-        print(b())
         // Tạo view con
         let subview = UIView()
         subview.translatesAutoresizingMaskIntoConstraints = false
-        subview.backgroundColor = .systemGreen
+        subview.backgroundColor = .systemBlue
         subview.layer.cornerRadius = 12
         subview.layer.borderWidth = 2
         subview.layer.borderColor = UIColor.black.cgColor
@@ -17,7 +16,7 @@ import UIKit
         // Tạo label bên trong view con
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = text
+        label.text = self.b() + text
         label.textColor = .white
         label.textAlignment = .center
         label.font = UIFont.boldSystemFont(ofSize: 16)
@@ -34,6 +33,6 @@ import UIKit
         return subview
     }
     @objc public func b()->String{
-        return "h"
+        return "Hi, I'm Tend"
     }
 }
