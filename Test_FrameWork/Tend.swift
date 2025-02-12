@@ -1,8 +1,8 @@
 import UIKit
 
-@objc public class Tend51: NSObject {
+@objc public class Tend52: NSObject {
     
-    @objc public let version = 51
+    @objc public let version = 52
     
     @objc public func createCustomSubview(withText text: String) -> UIView {
         print(b())
