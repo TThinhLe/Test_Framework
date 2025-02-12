@@ -1,15 +1,15 @@
 import UIKit
 
-@objc public class Tend55: NSObject {
+@objc public class Tend56: NSObject {
     
-    @objc public let version = 55
+    @objc public let version = 56
     
     @objc public func createCustomSubview(withText text: String) -> UIView {
         print(b())
         // Tạo view con
         let subview = UIView()
         subview.translatesAutoresizingMaskIntoConstraints = false
-        subview.backgroundColor = .red
+        subview.backgroundColor = .blue
         subview.layer.cornerRadius = 12
         subview.layer.borderWidth = 2
         subview.layer.borderColor = UIColor.black.cgColor
@@ -34,6 +34,6 @@ import UIKit
         return subview
     }
     @objc public func b()->String{
-        return "f"
+        return "k"
     }
 }
