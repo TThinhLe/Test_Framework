@@ -1,8 +1,8 @@
 import UIKit
 
-@objc public class Tend46: NSObject {
+@objc public class Tend47: NSObject {
     
-    @objc public let version = 46
+    @objc public let version = 47
     
     @objc public func createCustomSubview(withText text: String) -> UIView {
         print(b())
@@ -34,6 +34,6 @@ import UIKit
         return subview
     }
     @objc public func b()->String{
-        return "e"
+        return "d"
     }
 }
