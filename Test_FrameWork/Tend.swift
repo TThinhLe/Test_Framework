@@ -6,7 +6,7 @@ import UIKit
         // Tạo view con
         let subview = UIView()
         subview.translatesAutoresizingMaskIntoConstraints = false
-        subview.backgroundColor = .red
+        subview.backgroundColor = .systemBlue
         subview.layer.cornerRadius = 12
         subview.layer.borderWidth = 2
         subview.layer.borderColor = UIColor.black.cgColor
@@ -17,6 +17,8 @@ import UIKit
         label.text = self.b() + text
         label.textColor = .white
         label.textAlignment = .center
+        label.numberOfLines = 0
+        label.lineBreakMode = .byWordWrapping
         label.font = UIFont.boldSystemFont(ofSize: 16)
         
         // Thêm label vào view con
@@ -31,6 +33,6 @@ import UIKit
         return subview
     }
     @objc public func b()->String{
-        return "Hi, I'm IOS Developer. "
+        return "Hi, I'm Tend. "
     }
 }
