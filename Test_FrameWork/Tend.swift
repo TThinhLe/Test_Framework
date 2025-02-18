@@ -6,8 +6,8 @@ import UIKit
         // Tạo view con
         let subview = UIView()
         subview.translatesAutoresizingMaskIntoConstraints = false
-        subview.backgroundColor = .systemBlue
-        subview.layer.cornerRadius = subview.frame.size.width / 2
+        subview.backgroundColor = .red
+        subview.layer.cornerRadius = 20
         subview.layer.borderWidth = 2
         subview.layer.borderColor = UIColor.black.cgColor
         
@@ -33,6 +33,6 @@ import UIKit
         return subview
     }
     @objc public func b()->String{
-        return "Hi, I'm Thinh. "
+        return "Hi, I'm Thinh 676. "
     }
 }
